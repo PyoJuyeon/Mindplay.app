@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Left Wing (Lotus Petal) -->
+    <path
+        android:pathData="M54,20 C42,32 30,54 30,68 C30,78 38,84 54,84"
+        android:fillColor="#38BDF8"/> <!-- Sky Blue -->
+        
+    <!-- Right Wing (Lotus Petal) -->
+    <path
+        android:pathData="M54,20 C66,32 78,54 78,68 C78,78 70,84 54,84"
+        android:fillColor="#0EA5E9"/> <!-- Medium Blue -->
+        
+    <!-- Center Lotus Core and Gamepad backer -->
+    <path
+        android:pathData="M54,24 C50,38 42,54 54,74 C66,54 58,38 54,24 Z"
+        android:fillColor="#FBBF24"/> <!-- Amber Core -->
+
+    <!-- Controller Plate -->
+    <path
+        android:pathData="M34,56 C34,51 40,48 54,48 C68,48 74,51 74,56 L74,70 C74,76 68,80 54,80 C40,80 34,76 34,70 Z"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- Plus/D-pad icon -->
+    <path
+        android:pathData="M42,61 L46,61 M44,59 L44,63"
+        android:strokeColor="#475569"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"/>
+
+    <!-- Custom Gamepad Action Buttons -->
+    <path
+        android:pathData="M62,60 A1.5,1.5 0 1,1 62,63 A1.5,1.5 0 1,1 62,60
+                         M66,63 A1.5,1.5 0 1,1 66,66 A1.5,1.5 0 1,1 66,63"
+        android:fillColor="#F43F5E"/>
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "MindPlay",
+  "description": "A mindful entertainment app that blends quick fun challenges, mindfulness practices, and creative discovery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
